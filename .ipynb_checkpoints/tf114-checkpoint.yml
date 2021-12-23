@@ -1,0 +1,58 @@
+# g該環境可用於訓練image_lass-master
+name: tf114
+channels:
+  - conda-forge
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=1_gnu
+  - ca-certificates=2021.10.8=ha878542_0
+  - libgcc-ng=11.2.0=h1d223b6_11
+  - libgomp=11.2.0=h1d223b6_11
+  - libzlib=1.2.11=h36c2ea0_1013
+  - ncurses=5.9=10
+  - openssl=1.0.2u=h516909a_0
+  - pip=21.3.1=pyhd8ed1ab_0
+  - python=3.6.0=2
+  - python_abi=3.6=2_cp36m
+  - readline=6.2=0
+  - setuptools=58.0.4=py36h5fab9bb_2
+  - sqlite=3.13.0=1
+  - tk=8.5.19=2
+  - wheel=0.37.0=pyhd8ed1ab_1
+  - xz=5.2.5=h516909a_1
+  - zlib=1.2.11=h36c2ea0_1013
+  - pip:
+    - absl-py==1.0.0
+    - astor==0.8.1
+    - cached-property==1.5.2
+    - dataclasses==0.8
+    - gast==0.5.3
+    - google-pasta==0.2.0
+    - grpcio==1.42.0
+    - h5py==2.10.0
+    - importlib-metadata==4.8.2
+    - joblib==1.1.0
+    - keras==2.0.8
+    - keras-applications==1.0.8
+    - keras-preprocessing==1.1.2
+    - markdown==3.3.6
+    - numpy==1.19.5
+    - opencv-contrib-python==4.5.4.58
+    - opencv-python==4.5.4.58
+    - opencv-python-headless==4.5.4.60
+    - protobuf==3.19.1
+    - pyyaml==6.0
+    - scikit-learn==0.24.2
+    - scipy==1.5.4
+    - six==1.16.0
+    - tensorboard==1.14.0
+    - tensorflow-estimator==1.14.0
+    - tensorflow-gpu==1.14.0
+    - termcolor==1.1.0
+    - threadpoolctl==3.0.0
+    - tqdm==4.62.3
+    - typing-extensions==4.0.1
+    - werkzeug==2.0.2
+    - wrapt==1.13.3
+    - zipp==3.6.0
+prefix: /home/studio-lab-user/.conda/envs/tf114
